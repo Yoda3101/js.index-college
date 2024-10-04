@@ -4,13 +4,13 @@
 // console.log("A");
 // console.log("N");
 
-function sayMyname (){
-    console.log("I");
-console.log("S");
-console.log("H");
-console.log("A");
-console.log("N");
-}
+// function sayMyname (){
+//     console.log("I");
+// console.log("S");
+// console.log("H");
+// console.log("A");
+// console.log("N");
+// }
 
 // sayMyname()
 
@@ -41,4 +41,32 @@ function loginusermessage(username){
 }
 // console.log(loginusermessage());
 
- 
+
+function calculateCartPrice(val1, val2, ...num1){
+    return num1
+}
+// console.log(calculateCartPrice(200, 400, 500, 2000));
+
+const user = {
+    username: "ishan",
+    price:199
+}
+
+function handelObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+    
+} 
+
+// handelObject(user)
+
+handelObject({
+    username:"sunny",
+    price:399
+})
+
+const myNewArray = [200, 400, 100, 600]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+console.log(returnSecondValue(myNewArray));
